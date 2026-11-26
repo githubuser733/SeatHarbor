@@ -1,8 +1,12 @@
-# <img src="assets/anode.svg" width="36" height="36" alt=""> Anode — a background Windows desktop for AI agents
+# <img src="assets/seatharbor.svg" width="36" height="36" alt=""> SeatHarbor — a background Windows desktop for AI agents
 
-## 本分支：Anode 二次开发版
+**An independent, unofficial fork of [Anode](https://github.com/skulitom/Anode), originally developed by [skulitom](https://github.com/skulitom). Maintained independently by [githubuser733](https://github.com/githubuser733). This project is not affiliated with or endorsed by the upstream author.**
 
-这是 [githubuser733/Anode](https://github.com/githubuser733/Anode) 的个人维护分支，基于 [skulitom/Anode](https://github.com/skulitom/Anode)。原作者、上游项目与 [MIT 许可证](LICENSE) 保持不变；这里的本机改进不代表上游已经合并或发布。
+## SeatHarbor：独立维护的 Anode 衍生项目
+
+[SeatHarbor](https://github.com/githubuser733/SeatHarbor) 基于 [skulitom/Anode](https://github.com/skulitom/Anode)，保留 GitHub Fork 关系、原始贡献记录、原作者版权声明及 [MIT 许可证](LICENSE)。SeatHarbor 的改进、维护与发布均独立于上游，不代表上游已经合并、发布或认可。
+
+**品牌迁移说明：** SeatHarbor 是本仓库的新项目品牌。为保持现有本地部署兼容，当前源码及已部署程序仍包含 `anode.exe`、`anode` MCP 注册名称、`Anode` 内部命名空间和旧资源标识；这些是兼容性标识，并非官方 Anode 发布或授权。当前阶段没有独立 SeatHarbor 安装包，不应以原版品牌分发本分支构建。详见 [品牌与兼容性说明](BRANDING.md)。
 
 默认展示分支为 **`stable`**，本地开发分支为 `codex/local-current`。当前程序产品版本为 `0.11.3`，本地源码快照标签为 `local-2026.11.08.4`；标签、源码提交和实际运行程序的关系见 [活动清单](operations/config/anode-local-mcp.json)。后续文档提交不更换运行程序。
 
@@ -26,9 +30,9 @@
 
 ---
 
-## 上游项目说明
+## 上游项目说明（Anode 原版，仅作归属与参考）
 
-<!-- mcp-name: io.github.skulitom/anode -->
+> 以下内容描述上游 Anode；安装命令、发布包、演示、版本及性能数据均属于上游，不是 SeatHarbor 的独立发行或验证结果。
 
 **Computer-use agents that drive your Windows desktop take over your mouse and keyboard; Anode gives them their own desktop instead.**
 Anode is a Windows MCP server and CLI for computer use, GUI automation and UI testing. Claude Code,
